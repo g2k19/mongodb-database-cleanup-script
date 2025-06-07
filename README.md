@@ -18,7 +18,7 @@ A simple Node.js script that drops all collections from specified MongoDB databa
 ## GitHub Actions Setup & Usage
 This repository includes a GitHub Action that automatically runs by default the cleanup script monthly. The action also includes a manual trigger.
 
-1. Clone or Fork the repository.
+1. Clone or fork the repository.
 1. [Configure GitHub Secrets](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions). Refer to the `sample.env` file.
 1. (Optional) Change schedule. Edit the `cron` expression inside `mongodb-cleanup.yml`
 1. (Optional) [Trigger action manually](https://docs.github.com/en/actions/managing-workflow-runs-and-deployments/managing-workflow-runs/manually-running-a-workflow).
