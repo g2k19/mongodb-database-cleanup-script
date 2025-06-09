@@ -27,4 +27,4 @@ jobs:
         run: npm start
         env:
           MONGO_URI: ${{ secrets.MONGO_URI }}
-          DATABASES_TO_CLEAN: ${{ secrets.DATABASES_TO_CLEAN }}
+          DATABASES_TO_CLEAN: ${{ vars.DATABASES_TO_CLEAN }}
